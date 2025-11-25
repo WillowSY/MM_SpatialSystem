@@ -2,7 +2,6 @@
 
 ![Unity](https://img.shields.io/badge/Unity-2022.3%2B-black?style=flat&logo=unity)
 ![C#](https://img.shields.io/badge/Language-C%23-blue?style=flat&logo=csharp)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 계층적 해시 그리드를 이용해 Unity C# 환경 메모리 특성에 맞춰 Spatial Partitioning System을 구현했습니다.
 
