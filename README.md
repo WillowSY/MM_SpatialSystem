@@ -60,8 +60,8 @@ private readonly struct CellKey : System.IEquatable<CellKey>
 ```
 ### 2) Object Pooling
 
-**문제점**
+**문제점**  
 매 쿼리마다 new List<T>() 하면 GC 누적 발생
 
-**해결**
+**해결**  
 미리 할당된 버퍼(_queryBuffer)를 재사용하여 런타임 할당 거의 0으로 유지
